@@ -1,9 +1,5 @@
 FROM nimbix/centos-desktop
 
-
-RUN sudo yum install numpy
-
-
 COPY .bashrc /usr/local/
 
 
