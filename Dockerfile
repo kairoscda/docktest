@@ -1,7 +1,5 @@
 FROM nimbix/centos-desktop
 
-COPY .bashrc /usr/local/
-
 
 COPY docker-entrypoint.sh /usr/local/bin/
 RUN chown root:root /usr/local/bin/docker-entrypoint.sh
