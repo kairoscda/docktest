@@ -1,4 +1,4 @@
-FROM nimbix/ubuntu-desktop
+FROM nimbix/centos-desktop
 
 
 RUN sudo yum install numpy
